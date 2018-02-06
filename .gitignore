@@ -1,5 +1,12 @@
 
-# Created by https://www.gitignore.io/api/node,ruby,macos
+# Created by https://www.gitignore.io/api/node,sass,ruby,macos,grunt
+
+### grunt ###
+# Grunt usually compiles files inside this directory
+dist/
+
+# Grunt usually preprocesses files such as coffeescript, compass... inside the .tmp directory
+.tmp/
 
 ### macOS ###
 *.DS_Store
@@ -141,5 +148,9 @@ build-iPhoneSimulator/
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
 
+### Sass ###
+.sass-cache/
+*.css.map
 
-# End of https://www.gitignore.io/api/node,ruby,macos
+
+# End of https://www.gitignore.io/api/node,sass,ruby,macos,grunt
