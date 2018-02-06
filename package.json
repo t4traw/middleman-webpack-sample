@@ -7,5 +7,9 @@
   "license": "MIT",
   "devDependencies": {
     "webpack": "^3.10.0"
+  },
+  "scripts": {
+    "develop": "webpack --config ./webpack.config.js --watch -d --progress --colors",
+    "build": "webpack --config ./webpack.config.js --bail -p"
   }
 }
